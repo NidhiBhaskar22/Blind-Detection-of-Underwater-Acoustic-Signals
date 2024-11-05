@@ -2,39 +2,39 @@
 This project utilizes MFCC (Mel-Frequency Cepstral Coefficients) feature extraction and an Artificial Neural Network (ANN) model to detect underwater acoustic signals. Achieving 92% accuracy on the ShipSEAR dataset, this system aims to enhance maritime safety through reliable signal detection in underwater environments.
 
 #### Features
-High Accuracy Detection:
+- High Accuracy Detection:
 Achieved 92% accuracy in detecting underwater signals, contributing to increased maritime safety.
 
-MFCC Feature Extraction:
+- MFCC Feature Extraction:
 Extracts key features from audio signals to improve model performance.
 
-ANN-based Detection Model:
+- ANN-based Detection Model:
 Uses an Artificial Neural Network (ANN) trained on the ShipSEAR dataset to classify acoustic signals accurately.
 
 #### Workflow
-Data Collection:
+- Data Collection:
 Utilized the ShipSEAR dataset, a specialized collection of underwater acoustic signals.
 
-Feature Extraction:
+- Feature Extraction:
 Processed audio signals with MFCC to capture relevant audio features for accurate detection.
 
-Model Training:
+- Model Training:
 Trained an ANN model on the extracted features to classify acoustic signals.
 
-Evaluation:
+- Evaluation:
 Evaluated model accuracy and optimized parameters, achieving 92% accuracy.
 
-Deployment:
+- Deployment:
 Designed for potential integration into real-time maritime safety systems.
 
 #### Usage
-Feature Extraction:
+- Feature Extraction:
 Run the feature extraction script to process raw audio data using MFCC.
 
-Train the Model:
+- Train the Model:
 Train the ANN model on the processed data for accurate detection.
 
-Test and Evaluate:
+- Test and Evaluate:
 Test the model on a separate dataset and evaluate performance metrics.
 
 #### Results
